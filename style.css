@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --purple: #3f3d56;
+  --pink: #ee24ff;
+  --gray-dark: #828282;
+  --gray-light: #eceff2;
+
+  --heading-font: 500 3.2rem 'Dosis', sans-serif;
+  --heading-color: var(--purple);
+  --heading-color-span: var(--pink);
+
+  --paragraph-font: 400 1.5rem/2.2rem 'Open Sans', sans-serif;
+  --paragraph-color: var(--gray-dark);
+  --paragraph-color-span: var(--purple);
+
+  --links-font: 700 1.5rem/2.2rem 'Open Sans', sans-serif;
+  --links-color: var(--purple);
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+
+ul,
+li,
+a {
+  all: unset;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-inline: auto;
+  max-width: 62.6rem;
+  padding: 6.4rem 1.6rem;
+  gap: 3.2rem;
+}
+
+main img {
+  width: 100%;
+  max-width: 35rem;
+  margin-inline: auto;
+  object-fit: cover;
+}
+
+main p {
+  font: var(--paragraph-font);
+  color: var(--paragraph-color);
+}
+
+.content {
+  max-width: 54rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.content h1 {
+  font: var(--heading-font);
+  color: var(--heading-color);
+}
+
+.content h1 strong {
+  color: var(--heading-color-span);
+}
+
+.content p span {
+  font-weight: 700;
+  color: var(--paragraph-color-span);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.line {
+  width: 39.1rem;
+  border: 0.1rem solid var(--gray-light);
+}
+
+.links {
+  display: flex;
+  padding-bottom: 6.4rem;
+}
+
+.links ul {
+  display: flex;
+  gap: 4.2rem;
+  font: var(--links-font);
+  color: var(--links-color);
+}
+
+.links li {
+  cursor: pointer;
+}
+
+.wave {
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.line {
+  width: 39.1rem;
+  border: 0.1rem solid var(--gray-light);
+}
+
+.links {
+  display: flex;
+  padding-bottom: 6.4rem;
+}
+
+.links ul {
+  display: flex;
+  gap: 4.2rem;
+  font: var(--links-font);
+  color: var(--links-color);
+}
+
+.links li {
+  cursor: pointer;
+}
+
+.wave {
+  width: 100%;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
